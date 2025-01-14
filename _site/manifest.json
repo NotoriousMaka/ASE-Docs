@@ -1,0 +1,276 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/tatar/RiderProjects/ase-boose-assignment-NotoriousMaka/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppArray.html",
+          "hash": "snpMDciy3f+OR8e9AfdggzCLC9pDF0iDoksDKmaU7v4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppCanvas.html",
+          "hash": "228szHRWcWqWeYFULVIC0Z+sljjVcGwBHZEGx7Mxjq4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppClear.html",
+          "hash": "kM/IznP9ajpVAMm2S4rqsxdC2zW7+kguIS34+VHqYck="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppCommandFactory.html",
+          "hash": "UxPVnew4dqbY5YxYnGgzCIyP9NbMJHc7EXvNH+9zppM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppEnd.html",
+          "hash": "ClcfHSdxidxvEx5Ow7vhQ5Xh7arJs9Fg8MsPXmbGrzo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppFor.html",
+          "hash": "Je9f02vVOsK1zLBIBd53HiCouGro+U28ymSf/8vub/Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppIf.html",
+          "hash": "q02+1NWA3H4/3H7LZ4gvbYxAeWfoHWRVsisjNQVUgTQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppInt.html",
+          "hash": "k33LM1EZ9zCeo3lOMbevBnViI+CKR5rHHU0ja7WdQqk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppMethod.html",
+          "hash": "TjS3u/ZPNTrP55ITePh5SWHcr2UlEEsteZUcKPaTbHQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppReal.html",
+          "hash": "HgV1WG0BL0x2dthzVgOqrJ2QcuRleBDDx/WVu2R15js="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppReset.html",
+          "hash": "IiEBZylGWs4a/JlCDTdo6my6aOQ75nvjo+ckP/JQktg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppTriangle.html",
+          "hash": "tMhbHjuXxnf7GVo4shyAbTa062twW0VVQTpl8tDenaI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppWhile.html",
+          "hash": "CbYX+djIh8NznfDF2+C3Xgzc1XfZAUvg8GJoliMvsd0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.AppWrite.html",
+          "hash": "Z4f4rwXdnDelGmIVcjY7Vmc91kZPPp6JcWgZuV0vXtM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.Form1.html",
+          "hash": "sqV++P41gH321tqpWiL2nVFwQXUr4r/vgF5FnvS/sFs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.Tests.AppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.Tests.AppCanvasTests.html",
+          "hash": "fynjUV+nwS28iXk+OeoawypA/9jzI6bkvq4+P2NNOss="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.Tests.html",
+          "hash": "oYpOcVnxXtwoyXTYS7A7R8DBQN0Ee6Xl4YWzqbHLvm8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Assignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Assignment.html",
+          "hash": "7K16NtgL1PtsPqXy+C7AN2wZp9Ux8Irw0YA2q9ylTHo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "UZmc/UWFzRKYdJOHep/UtSgFVxlqLsvYHPRyuufPsnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 18,
+          "skipped_file_count": 18
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
