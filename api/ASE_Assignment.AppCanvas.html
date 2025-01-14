@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AppCanvas
+   | ASE Assignment Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AppCanvas
+   | ASE Assignment Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ASE_Assignment.AppCanvas">
+  
+  
+  <h1 id="ASE_Assignment_AppCanvas" data-uid="ASE_Assignment.AppCanvas" class="text-break">Class AppCanvas
+  </h1>
+  <div class="markdown level0 summary"><p>A drawing canvas for the application that supports text drawing and drawing lines, rectangles, circles, and triangles.
+Implements the <span class="xref">BOOSE.ICanvas</span> interface.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BOOSE.Canvas</span></div>
+    <div class="level2"><span class="xref">AppCanvas</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">BOOSE.ICanvas</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">BOOSE.Canvas.background_colour</span>
+    </div>
+    <div>
+      <span class="xref">BOOSE.Canvas.Rectangle(System.Int32, System.Int32, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">BOOSE.Canvas.Xpos</span>
+    </div>
+    <div>
+      <span class="xref">BOOSE.Canvas.Ypos</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ASE_Assignment.html">ASE_Assignment</a></h6>
+  <h6><strong>Assembly</strong>: ASE Assignment.dll</h6>
+  <h5 id="ASE_Assignment_AppCanvas_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AppCanvas : Canvas, ICanvas</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="ASE_Assignment_AppCanvas__ctor_" data-uid="ASE_Assignment.AppCanvas.#ctor*"></a>
+  <h4 id="ASE_Assignment_AppCanvas__ctor_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.#ctor(System.Int32,System.Int32)">AppCanvas(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>This is the constructor for the AppCanvas class. It creates a new bitmap and graphics object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCanvas(int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Width of the canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Height of the canvas.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="ASE_Assignment_AppCanvas_PenColour_" data-uid="ASE_Assignment.AppCanvas.PenColour*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_PenColour" data-uid="ASE_Assignment.AppCanvas.PenColour">PenColour</h4>
+  <div class="markdown level1 summary"><p>This method is used to set the colour of the pen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object PenColour { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.PenColour</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="ASE_Assignment_AppCanvas_Circle_" data-uid="ASE_Assignment.AppCanvas.Circle*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Circle(System.Int32,System.Boolean)">Circle(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates the circle on the canvas unless the radius is over 0. It checks the parameters filled and radius.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Circle(int radius, bool filled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td><p>The radius of the circle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">filled</span></td>
+        <td><p>If the circle is filled or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Circle(System.Int32, System.Boolean)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BOOSE.CanvasException</span></td>
+        <td><p>Thrown when the radius of the circle is invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ASE_Assignment_AppCanvas_Clear_" data-uid="ASE_Assignment.AppCanvas.Clear*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Clear" data-uid="ASE_Assignment.AppCanvas.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Clear()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Clear()</span></div>
+  <a id="ASE_Assignment_AppCanvas_DrawTo_" data-uid="ASE_Assignment.AppCanvas.DrawTo*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.DrawTo(System.Int32,System.Int32)">DrawTo(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Command to draw a line from the current pen position to the specified position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawTo(int toX, int toY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">toX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">toY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.DrawTo(System.Int32, System.Int32)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BOOSE.CanvasException</span></td>
+        <td><p>Thrown when coordinates are invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ASE_Assignment_AppCanvas_getBitmap_" data-uid="ASE_Assignment.AppCanvas.getBitmap*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_getBitmap" data-uid="ASE_Assignment.AppCanvas.getBitmap">getBitmap()</h4>
+  <div class="markdown level1 summary"><p>Command to get the bitmap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object getBitmap()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The bitmap object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.getBitmap()</span></div>
+  <a id="ASE_Assignment_AppCanvas_MoveTo_" data-uid="ASE_Assignment.AppCanvas.MoveTo*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.MoveTo(System.Int32,System.Int32)">MoveTo(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Command to move the pen to the specified position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void MoveTo(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The new X coordinate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The new Y coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.MoveTo(System.Int32, System.Int32)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BOOSE.CanvasException</span></td>
+        <td><p>Thrown when the coordinates are invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ASE_Assignment_AppCanvas_Rect_" data-uid="ASE_Assignment.AppCanvas.Rect*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="ASE_Assignment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)">Rect(Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>It creates a rectangle based on the width and height parameters. It checks the parameters filled, width, and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The width of the rectangle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height of the rectangle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">filled</span></td>
+        <td><p>Checks if the rectangle will be filled or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Rect(System.Int32, System.Int32, System.Boolean)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BOOSE.CanvasException</span></td>
+        <td><p>Thrown when coordinates are invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ASE_Assignment_AppCanvas_Reset_" data-uid="ASE_Assignment.AppCanvas.Reset*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Reset" data-uid="ASE_Assignment.AppCanvas.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>It resets the pen position to 0,0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Reset()</span></div>
+  <a id="ASE_Assignment_AppCanvas_Set_" data-uid="ASE_Assignment.AppCanvas.Set*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)">Set(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the canvas size based on the xsize and ysize parameters. It checks the parameters xsize and ysize.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Set(int xsize, int ysize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">xsize</span></td>
+        <td><p>The width of the canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ysize</span></td>
+        <td><p>The height of the canvas.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Set(System.Int32, System.Int32)</span></div>
+  <a id="ASE_Assignment_AppCanvas_SetColour_" data-uid="ASE_Assignment.AppCanvas.SetColour*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)">SetColour(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>It sets the colour of the pen based on the RGB parameters. It checks the parameters red, green, and blue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetColour(int red, int green, int blue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">red</span></td>
+        <td><p>The red component of the colour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">green</span></td>
+        <td><p>The green component of the colour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">blue</span></td>
+        <td><p>The blue component of the colour.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.SetColour(System.Int32, System.Int32, System.Int32)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BOOSE.CanvasException</span></td>
+        <td><p>Thrown when the colour numbers are invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ASE_Assignment_AppCanvas_Tri_" data-uid="ASE_Assignment.AppCanvas.Tri*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_" data-uid="ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)">Tri(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>It creates a triangle based on the width and height parameters. It checks the parameters width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Tri(int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The width of the tringle.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The heigh of the triangle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.Tri(System.Int32, System.Int32)</span></div>
+  <a id="ASE_Assignment_AppCanvas_WriteText_" data-uid="ASE_Assignment.AppCanvas.WriteText*"></a>
+  <h4 id="ASE_Assignment_AppCanvas_WriteText_System_String_" data-uid="ASE_Assignment.AppCanvas.WriteText(System.String)">WriteText(String)</h4>
+  <div class="markdown level1 summary"><p>It writes the text on the canvas. It checks the parameter text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text string to write on the canvas.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.Canvas.WriteText(System.String)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">BOOSE.ICanvas</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
